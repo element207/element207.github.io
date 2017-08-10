@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "All Entries"
+    url: /year-archive/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
+  - title: "Quick-Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
