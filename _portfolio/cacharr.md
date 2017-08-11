@@ -25,4 +25,4 @@ date: 2015-08-01
 * Caching flag can be set to either manual or automatic mode. If no caching is needed to perform, the `CachedNDArray` is treated like a normal Matlab array.
 * Automatic or manual dimension breakage into number of chunks.
 
-[View on github](https://github.com/vicrucann/cacharr){: .btn .btn--success}
+[View on github](https://github.com/vicrucann/cacharr){: .btn .btn--info}
