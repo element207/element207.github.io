@@ -1,7 +1,7 @@
 ---
 titile: My First Blog
 categories:
-- Tutorials
+ - Tutorials
 mathjax: true
 ---
 
