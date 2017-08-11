@@ -2,6 +2,9 @@
 layout: single
 title: "Resources"
 permalink: /resources/
+header:
+    overlay_color: "#5e616c"
+    overlay_image: /assets/images/w-home-page.jpg
 ---
 
 In this list I try to include some of my favorite resources. This list is occasionally updated.
