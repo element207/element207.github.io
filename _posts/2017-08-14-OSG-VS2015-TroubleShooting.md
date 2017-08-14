@@ -17,7 +17,7 @@ mathjax: true
 # OSG VS2015 TroubleShooting Overview
 Normally you can find many instructions to say "Hello World" in OSG style.  
 It should look like following steps:
-{% highlight %}
+{% highlight cmake%}
 *1. Create a empty win32 console application.
 *2. add OSG lib to project properties
 *3. add codes
