@@ -7,7 +7,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/w-home-page.jpg
   
-excerpt: First time mess with OSG & VS2015 met lots of problem which were really tricky, I hope I never meet those again, I leave a resolved information, hope it can help others.
+excerpt: First time mess with OSG & VS2015 met lots of problems which were really tricky, I decide to write this information, hope it can help others.
 mathjax: true
 ---
 
