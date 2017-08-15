@@ -2,7 +2,10 @@
 titile: OSG VS2015 TroubleShooting
 categories: 
           - Tutorials
+tags:          
           - TroubleShooting
+          - OSG
+          - VS 2015
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/w-home-page.jpg
@@ -24,7 +27,7 @@ It should look like following steps:
 4. compile and run application. 
 {% endhighlight %}
 
-**OSG Hello World**
+**OSG Hello World: **
 for more details check another tutorial: [OSG Hello World Example]({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}){: .btn .btn--info}
 {: .notice--info}
 

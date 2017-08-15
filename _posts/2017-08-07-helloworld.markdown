@@ -1,7 +1,11 @@
 ---
 title:  "Hello World!"
 date:   2017-08-07 11:41:41 +0800
-categories: jekyll update
+categories: 
+          - Tutorials
+tags:          
+          - Jekyll
+          - Update
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/w-home-page.jpg
