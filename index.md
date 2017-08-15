@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/w-home-page.jpg
   caption: "<i>This site is created by Minimal Mistakes Theme, for more information check Quick-Guide.</i>"
-  cta_label: "More Info"
+  cta_label: "for page test"
   cta_url: "/WebContent/html/"
 excerpt: 'Professional blogs and tutorials for reference in future .'
 feature_row:
