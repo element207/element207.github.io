@@ -18,16 +18,14 @@ mathjax: true
 Normally you can find many instructions to say "Hello World" in OSG style.  
 It should look like following steps:
 {% highlight shell %}
-*1. Create a empty win32 console application.
-*2. add OSG lib to project properties
-*3. add codes
-... 
+1. Create a empty win32 console application.
+2. add OSG lib to project properties
+3. add codes to show a 3D model
+4. compile and run application. 
 {% endhighlight %}
 
 **OSG HelloWorld**
-*1. Create a empty win32 console application.
-*2. add OSG lib to project properties
-*3. add codes
-... 
+{{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}
+[OSG Hello World Example]{{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}
 {: .notice--info}
 
