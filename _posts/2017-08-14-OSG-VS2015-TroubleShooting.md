@@ -58,11 +58,13 @@ int main()
 }
 {% endhighlight %}
 
+# Compile Error
+
 if you build the codes above maybe you will get many errors.
 
 **Notice**
 Make sure you are using the same platform configuration about x64 or x86, or you will get similar error message like below:
-<br><br>`fatal error C1083: Cannot open include file: 'osgviewer/viewer': No such file or directory`.
+<br><br>`fatal error C1083: Cannot open include file: 'osgviewer/viewer': No such file or directory.`
 {: .notice--danger}
 
 {% highlight Console %}
@@ -91,3 +93,45 @@ Make sure you are using the same platform configuration about x64 or x86, or you
 ========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
 {% endhighlight %}
 
+for this error MSDN tells us we should include windows.h header.
+add those lines to above source codes.
+
+{% highlight C++ %}
+
+#ifdef _DEBUG
+#pragma comment(lib, "osgViewerd.lib")
+#pragma comment(lib, "osgDBd.lib")
+#pragma comment(lib, "OpenThreadsd.lib")
+#pragma comment(lib, "osgd.lib")
+#else
+#pragma comment(lib, "osgViewer.lib")
+#pragma comment(lib, "osgDB.lib")
+#pragma comment(lib, "OpenThreads.lib")
+#pragma comment(lib, "osg.lib")
+#endif
+
+/***************************** added new lines start *************************************/
+#if defined(_WIN32) || defined(_WIN32) || defined(__WIN32__) || defined(_WIN64)
+#include <windows.h>
+#endif
+/******************************** added new lines end *************************************/
+
+#include <osgviewer/viewer>
+#include <osgdb/readfile>
+
+int main()
+{
+	osg::ref_ptr <osgViewer::Viewer> viewer = new osgViewer::Viewer;
+	viewer->setSceneData(osgDB::readNodeFile("glider.osg"));
+	return viewer->run();
+}
+{% endhighlight %}
+
+then we can build successfully.
+
+# Runtime Error
+
+Run the program we built just now, maybe you can run it correctly, maybe you will meet following error
+
+**Error** "The program cant start because zlib1.dll is missing from your computer. Try reinstalling the program to fix this problem."
+{: .notice--danger} 
