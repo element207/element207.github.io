@@ -25,10 +25,8 @@ It should look like following steps:
 {% endhighlight %}
 
 **OSG HelloWorld**
-helloword({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %})
-[OSG Hello World Example]({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %})
+for more details check another tutorial: [OSG Hello World Example]({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %})
 {: .notice--info}
 
-helloworld({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %})
-[OSG Hello World Example]({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %})
+
 
