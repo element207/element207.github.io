@@ -28,7 +28,7 @@ It should look like following steps:
 {% endhighlight %}
 
 **OSG Hello World**
-for more details check another tutorial: [OSG Hello World Example]({{ site.baseurl }}{% post_url 2017-08-10-my-first-blog %}){: .btn .btn--info}
+for more details check another tutorial: [OSG HelloWorld Example]({{ site.baseurl }}{% post_url 2017-08-10-OSG-HelloWorld-Example %}){: .btn .btn--info}
 {: .notice--info}
 
 Normally codes will be like this:
@@ -137,9 +137,12 @@ Run the program we built just now, maybe we can run it correctly, maybe not, bec
 {: .notice--danger} 
 
 I don't know why, but the fact is that We can find zlib*.dll files under OSGPATH/bin folder, but we perhaps  notice that there is no `zlibd1.dll` file in that folder, we may get `zlib1.dll` and `zlibd1d.dll` instead. `zlibd1d.dll` is for debug mode, then what we need to do is to copy `zlib1.dll` to a new name `zlibd1.dll`, and copy it into windows path:
-`x86: copy zlibd1.dll to C:\Windows\System32\`
-`x64: copy zlibd1.dll  C:\Windows\SysWOW64\`
 
+**Informaton**
+<br>`x86: copy zlibd1.dll to C:\Windows\System32\`
+{: .notice--info}
+<br>`x64: copy zlibd1.dll  C:\Windows\SysWOW64\`
+{: .notice--info}
 and run above program again. this time we should get glider model displayed on screen.
 ![glider.osg screen capture]({{site.url}}{{site.baseurl}}/assets/images/osg/glider.jpg)
 {: .align-center}
