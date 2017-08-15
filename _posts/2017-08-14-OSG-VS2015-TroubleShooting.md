@@ -140,8 +140,7 @@ I don't know why, but the fact is that We can find zlib*.dll files under OSGPATH
 
 **Informaton**
 <br>`x86: copy zlibd1.dll to C:\Windows\System32\`
-{: .notice--info}
-`x64: copy zlibd1.dll  C:\Windows\SysWOW64\`
+<br>`x64: copy zlibd1.dll  C:\Windows\SysWOW64\`
 {: .notice--info}
 and run above program again. this time we should get glider model displayed on screen.
 ![glider.osg screen capture]({{site.url}}{{site.baseurl}}/assets/images/osg/glider.jpg)
