@@ -27,8 +27,8 @@ It should look like following steps:
 4. compile and run application. 
 {% endhighlight %}
 
-**OSG Hello World: **
-for more details check another tutorial: [OSG Hello World Example]({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}){: .btn .btn--info}
+**OSG Hello World**
+for more details check another tutorial: [OSG Hello World Example]({{ site.baseurl }}{% post_url 2017-08-10-my-first-blog %}){: .btn .btn--info}
 {: .notice--info}
 
 
