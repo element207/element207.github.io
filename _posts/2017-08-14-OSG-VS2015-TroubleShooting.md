@@ -29,3 +29,6 @@ It should look like following steps:
 [OSG Hello World Example]{{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}
 {: .notice--info}
 
+{{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}
+[OSG Hello World Example]{{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}
+
