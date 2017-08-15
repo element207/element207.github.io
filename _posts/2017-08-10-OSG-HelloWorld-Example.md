@@ -1,5 +1,5 @@
 ---
-titile: OSG HelloWorld Example
+titile: OSG HelloWorld VS2015 Example
 categories: 
           - Tutorials
 tags:          
@@ -7,6 +7,7 @@ tags:
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/w-home-page.jpg
+excerpt: This is an instruction of saying HelloWorld in OSG style. This project will build by using Visual Studio 2015.
 mathjax: true
 ---
 
