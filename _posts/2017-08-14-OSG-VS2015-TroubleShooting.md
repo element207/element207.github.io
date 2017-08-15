@@ -25,10 +25,10 @@ It should look like following steps:
 {% endhighlight %}
 
 **OSG HelloWorld**
-{{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}
-[OSG Hello World Example]{{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}
+helloword({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %})
+[OSG Hello World Example]({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %})
 {: .notice--info}
 
-{{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}
-[OSG Hello World Example]{{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %}
+helloworld({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %})
+[OSG Hello World Example]({{ site.baseurl }}{% link _posts/2017-08-10-my-first-blog.md %})
 
