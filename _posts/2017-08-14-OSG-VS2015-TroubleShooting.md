@@ -63,7 +63,7 @@ int main()
 if you build the codes above maybe you will get many errors.
 
 **Notice**
-Make sure you are using the same x64 or x86 platform configuration with the build of OSG library, if you build x86 application by including x64 library, you will get similar error message like below:
+Make sure you are using the same x64 or x86 platform configuration with the build of OSG library, if you build x86 application by including x64 library, you will get a similar error message like below:
 <br><br>`fatal error C1083: Cannot open include file: 'osgviewer/viewer': No such file or directory.`
 <br>and vice versa.
 {: .notice--danger}
