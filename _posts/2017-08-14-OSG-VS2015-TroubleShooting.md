@@ -22,16 +22,16 @@ Normally you can find many instructions to say "Hello World" in OSG style.
 It should look like following steps:
 {% highlight shell %}
 1. Create a empty win32 console application.
-2. add OSG lib to project properties
-3. add codes to show a 3D model
-4. compile and run application. 
+2. Add OSG lib to project properties
+3. Add codes to show a 3D model
+4. Compile and run application. 
 {% endhighlight %}
 
 **OSG Hello World**
 for more details check another tutorial: [OSG Hello World Example]({{ site.baseurl }}{% post_url 2017-08-10-my-first-blog %}){: .btn .btn--info}
 {: .notice--info}
 
-Normally codes will look like this:
+Normally codes will be like this:
 {% highlight C++ %}
 
 #ifdef _DEBUG
@@ -58,9 +58,11 @@ int main()
 }
 {% endhighlight %}
 
-if you build the code mayby you will get following errors
+if you build the codes above maybe you will get many errors.
+
 **Notice**
 Make sure you are using the same platform configuration about x64 or x86, or you will get similar error message like below:
+
 `fatal error C1083: Cannot open include file: 'osgviewer/viewer': No such file or directory`.
 {: .notice--danger}
 
