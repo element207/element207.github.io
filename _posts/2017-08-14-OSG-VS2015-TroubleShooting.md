@@ -139,7 +139,7 @@ Run the program we built just now, maybe we can run it correctly, maybe not, bec
 
 I don't know why, but the fact is that We can find zlib*.dll files under OSGPATH/bin folder, but we perhaps  notice that there is no `zlibd1.dll` file in that folder, we may get `zlib1.dll` and `zlibd1d.dll` instead. `zlibd1d.dll` is for debug mode, then what we need to do is to copy `zlib1.dll` to a new name `zlibd1.dll`, and copy it into windows path:
 
-**Informaton**
+**Information**
 <br>`x86: copy zlibd1.dll to C:\Windows\System32\`
 <br>`x64: copy zlibd1.dll  C:\Windows\SysWOW64\`
 {: .notice--info}
