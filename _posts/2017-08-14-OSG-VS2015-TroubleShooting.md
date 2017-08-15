@@ -17,12 +17,12 @@ mathjax: true
 # Overview
 Normally you can find many instructions to say "Hello World" in OSG style.  
 It should look like following steps:
-
-`*1. Create a empty win32 console application.`
-`*2. add OSG lib to project properties`
-`*3. add codes`
-`... `
-
+{% highlight shell %}
+*1. Create a empty win32 console application.
+*2. add OSG lib to project properties
+*3. add codes
+... 
+{% endhighlight %}
 
 **OSG HelloWorld**
 *1. Create a empty win32 console application.
