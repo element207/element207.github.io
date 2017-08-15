@@ -61,8 +61,8 @@ int main()
 if you build the codes above maybe you will get many errors.
 
 **Notice**
-Make sure you are using the same platform configuration about x64 or x86, or you will get similar error message like below:{: .notice--danger}
-`fatal error C1083: Cannot open include file: 'osgviewer/viewer': No such file or directory`.
+Make sure you are using the same platform configuration about x64 or x86, or you will get similar error message like below:
+{: .notice--danger}<br>`fatal error C1083: Cannot open include file: 'osgviewer/viewer': No such file or directory`.
 {: .notice--danger}
 
 {% highlight Console %}
