@@ -133,5 +133,13 @@ then we can build successfully.
 
 Run the program we built just now, maybe you can run it correctly, maybe you will meet following error
 
-**Error** "The program cant start because zlib1.dll is missing from your computer. Try reinstalling the program to fix this problem."
+**Error** "The program cann't start because **zlibd1.dll** is missing from your computer. Try reinstalling the program to fix this problem."
 {: .notice--danger} 
+
+We can find zlib*.dll files under OSGPATH/bin folder, but we perhaps cannot find the `zlibd1.dll` file, we will get `zlib1.dll` and `zlibd1d.dll` instead. `zlibd1d.dll` is for debug mode, then what we need to do is to copy `zlib1.dll` to new name `zlibd1.dll`, and copy them to windows path:
+`x86: copy zlibd1.dll to C:\Windows\System32\`
+`x64: copy zlibd1.dll  C:\Windows\SysWOW64\`
+
+and run above program again. this time we should get glider model displayed on screen.
+![glider.osg screen capture]({{site.url}}{{site.baseurl}}/assets/images/osg/glider.jpg)
+{: .align-center}
