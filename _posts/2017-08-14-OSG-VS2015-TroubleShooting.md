@@ -28,7 +28,7 @@ It should look like following steps:
 {% endhighlight %}
 
 **OSG Hello World**
-for more details check another tutorial: [OSG Hello World Example]({{ site.baseurl }}{% link tutorials/OSG-VS2015-TroubleShooting/ %}){: .btn .btn--info}
+for more details check another tutorial: [OSG Hello World Example]({{ site.baseurl }}{% post_url my-first-blog %}){: .btn .btn--info}
 {: .notice--info}
 
 
