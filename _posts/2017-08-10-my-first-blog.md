@@ -2,6 +2,7 @@
 titile: My First Blog
 categories: 
           - Tutorials
+tags:          
           - Examples
 header:
   overlay_color: "#5e616c"

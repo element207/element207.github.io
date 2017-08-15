@@ -2,7 +2,10 @@
 titile: OSG VS2015 TroubleShooting
 categories: 
           - Tutorials
+tags:          
           - TroubleShooting
+          - OSG
+          - VS 2015
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/w-home-page.jpg

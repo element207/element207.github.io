@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/images/w-home-page.jpg
 categories:
           - Tutorials
+tags:          
           - jekyll
           - update
 ---
