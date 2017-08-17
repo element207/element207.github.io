@@ -9,6 +9,10 @@ header:
 
 In this list I try to include some of my favorite resources. This list is occasionally updated.
 
+# Demo Web Pages (Only for myself)
+
+* [Demo Home](/WebContent/html/){: .btn .btn--info} - web develop test site for myself.
+
 # Books
 
 * [Code Complete 2: A Practical Handbook of Software Construction, Second Edition](http://a.co/4WwA5IA) by Steve McConnell is unbeatable classics on software development.
