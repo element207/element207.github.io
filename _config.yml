@@ -15,7 +15,7 @@ url                      : "https://element207.github.io"
 baseurl                  : #"/minimal-mistakes"
 repository               : "element207/element207.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-favicon                  : "assets/images/icon/favicon.ico"
+favicon                  : "assets/images/favicons/favicon.ico"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
 comments:
