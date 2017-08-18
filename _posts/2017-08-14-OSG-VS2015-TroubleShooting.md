@@ -63,9 +63,9 @@ int main()
 if you build the codes above maybe you will get many errors.
 
 **Notice**
-Make sure you are using the same x64 or x86 platform configuration with the build of OSG library, if you build x86 application by including x64 library, you will get a similar error message like below:
-<br><br>`fatal error C1083: Cannot open include file: 'osgviewer/viewer': No such file or directory.`
-<br>and vice versa.
+Make sure you are using the same x64 or x86 platform configuration with the build of OSG library, if you build x86 application by including x64 library, you will get a similar error message like below:  
+`fatal error C1083: Cannot open include file: 'osgviewer/viewer': No such file or directory.`  
+and vice versa.
 {: .notice--danger}
 
 {% highlight Console %}
@@ -139,9 +139,9 @@ Run the program we built just now, maybe we can run it correctly, maybe not, bec
 
 I don't know why, but the fact is that We can find zlib*.dll files under OSGPATH/bin folder, but we perhaps  notice that there is no `zlibd1.dll` file in that folder, we may get `zlib1.dll` and `zlibd1d.dll` instead. `zlibd1d.dll` is for debug mode, then what we need to do is to copy `zlib1.dll` to a new name `zlibd1.dll`, and copy it into windows path:
 
-**Information**
-<br>`x86: copy zlibd1.dll to C:\Windows\System32\`
-<br>`x64: copy zlibd1.dll  C:\Windows\SysWOW64\`
+**Information**  
+`x86: copy zlibd1.dll to C:\Windows\System32\`  
+`x64: copy zlibd1.dll  C:\Windows\SysWOW64\`
 {: .notice--info}
 and run above program again. this time we should get glider model displayed on screen.
 ![glider.osg screen capture]({{site.url}}{{site.baseurl}}/assets/images/osg/glider.jpg)
