@@ -15,33 +15,57 @@ mathjax: true
 
 # Precondition
 
-* OSG library has been built in x32 or x64
+> * OSG library has been built in x32 or x64
 * OSG Example data has been downloaded. 
 * assuming OSGPATH is setting as D:\OSG
- * _include_ - D:\OSG\include
- * _lib_     - D:\OSG\lib
- * _bin_     - D:\OSG\bin
- * _data_    - D:\OSG\data
+    * _include_ - D:\OSG\include
+    * _lib_     - D:\OSG\lib
+    * _bin_     - D:\OSG\bin
+    * _data_    - D:\OSG\data
 * System environment has been set corroctly
- * _PATH_          - add D:\OSG\bin to _PATH_
- * _OSG_FILE_PATH_ - create this key with value _D:\OSG\data_  
+    * _PATH_          - add D:\OSG\bin to _PATH_
+    * _OSG_FILE_PATH_ - create this key with value _D:\OSG\data_  
 
 
 # Overview
 Normally you can find many instructions to say "Hello World" in OSG style.  
 It should look like following steps:
-{% highlight shell %}
-1. Create a empty win32 console application.
+> 1. Create a empty win32 console application.
 2. Add OSG lib to project properties
 3. Add codes to show a 3D model
 4. Compile and run application. 
-{% endhighlight %}
+
+# Create Project
+> Create an empty win32 console appliction project.
+
+### Create new project
+
+> file -> new -> project...  
+> select -> Win32 -> Win32 Console Application -> OK  
+
+![create new project][create new project]
+
+> Application Settings -> check Empty project -> Finish  
+
+![application settings][application settings]
+
+### Configure Project Properties
+
+> project -> Properties -> VC++ Directories  
+> Executable Directories - add **_D:\OSG\bin_**  
+> Include Directories - add **_D:\OSG\include_**  
+> Library Directories - add **_D:\OSG\lib_**  
+
+![project properties][project properties]  
+
+**Notice**  
+pay more attention to using same x64 or x86 **_Platform_** configuration!
+{: .notice--danger}
+
+# Add Codes
 
 
-Normally codes will be like this:
-
-for this error MSDN tells us we should include windows.h header.
-add those lines to above source codes.
+> Normally codes will be like this:
 
 {% highlight C++ %}
 
@@ -57,11 +81,9 @@ add those lines to above source codes.
 #pragma comment(lib, "osg.lib")
 #endif
 
-/***************************** added new lines start *************************************/
 #if defined(_WIN32) || defined(_WIN32) || defined(__WIN32__) || defined(_WIN64)
 #include <windows.h>
 #endif
-/******************************** added new lines end *************************************/
 
 #include <osgviewer/viewer>
 #include <osgdb/readfile>
@@ -75,6 +97,21 @@ int main()
 {% endhighlight %}
 
 
+# Compile and Run
+
+> A 3D model should be displayed in screen correctly.
+
+![HelloOsg run][HelloOsg run]
+
+
 **OSG VS2015 Troubleshooting**
 If building or running above project with problems, please check another tutorial. [LEARN MORE]({{ site.baseurl }}{% post_url 2017-08-14-OSG-VS2015-TroubleShooting %}){: .btn .btn--info}
 {: .notice--info}
+
+
+[create new project]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg01.png
+[application settings]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg02.png
+[project properties]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg03.png
+[HelloOsg run]:{{site.url}}{{site.baseurl}}/assets/images/osg/glider.jpg
+
+
