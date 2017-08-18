@@ -7,7 +7,7 @@ tags:
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/w-home-page.jpg
-excerpt: This is an instruction of saying HelloWorld in OSG style. This project will build by using Visual Studio 2015.
+excerpt: This is an instruction of saying _Hello World!_ in OSG style. This project will build by using Visual Studio 2015.
 mathjax: true
 ---
 
@@ -65,6 +65,5 @@ int main()
 {% endhighlight %}
 
 
-**OSG VS2015 Troubleshooting**
-If building or running above project with problems, please check another tutorial. [OSG VS2015 Troubleshooting]({{ site.baseurl }}{% post_url 2017-08-14-OSG-VS2015-TroubleShooting %}){: .btn .btn--info}
+[**OSG VS2015 Troubleshooting**]({{ site.baseurl }}{% post_url 2017-08-14-OSG-VS2015-TroubleShooting %}){: .btn .btn--success} If building or running above project with problems, please check another tutorial. 
 {: .notice--info}
