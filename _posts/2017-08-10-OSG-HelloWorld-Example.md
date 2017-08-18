@@ -65,5 +65,6 @@ int main()
 {% endhighlight %}
 
 
-[**OSG VS2015 Troubleshooting**]({{ site.baseurl }}{% post_url 2017-08-14-OSG-VS2015-TroubleShooting %}){: .btn .btn--success} If building or running above project with problems, please check another tutorial. 
+[**OSG VS2015 Troubleshooting**]({{ site.baseurl }}{% post_url 2017-08-14-OSG-VS2015-TroubleShooting %}){: .btn .btn--info}  
+If building or running above project with problems, please check another tutorial. 
 {: .notice--info}
