@@ -15,7 +15,7 @@ mathjax: true
 
 {% include toc %}
 
-**TO BE COMPELETED**
+# Precondition
 
 # Overview
 Normally you can find many instructions to say "Hello World" in OSG style.  
@@ -63,3 +63,8 @@ int main()
 	return viewer->run();
 }
 {% endhighlight %}
+
+
+**OSG VS2015 Troubleshooting**
+If building or running above project with problems, please check another tutorial. [OSG VS2015 Troubleshooting]({{ site.baseurl }}{% post_url 2017-08-14-OSG-VS2015-TroubleShooting %}){: .btn .btn--info}
+{: .notice--info}
