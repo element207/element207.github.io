@@ -11,11 +11,21 @@ excerpt: This is an instruction of saying _Hello World!_ in OSG style. This proj
 mathjax: true
 ---
 
-# OSG HelloWorld Example
-
 {% include toc %}
 
 # Precondition
+```
+* OSG library has been built in x32 or x64
+* OSG Example data has been downloaded. 
+* assuming OSGPATH is setting as D:\OSG
+ * _include_ - D:\OSG\include
+ * _lib_     - D:\OSG\lib
+ * _bin_     - D:\OSG\bin
+ * _data_    - D:\OSG\data
+* System environment has been set corroctly
+ * _PATH_          - add D:\OSG\bin to _PATH_
+ * _OSG_FILE_PATH_ - create this key with value _D:\OSG\data_  
+```
 
 # Overview
 Normally you can find many instructions to say "Hello World" in OSG style.  
