@@ -7,7 +7,7 @@ header:
 title: "About"
 ---
 
-> Hi there - I'm Wayne, I will complete this page later.
+> Welcome to my web site!
 
 <figure>
     <a href="/assets/images/about.jpg"><img src="/assets/images/about.jpg"></a>
