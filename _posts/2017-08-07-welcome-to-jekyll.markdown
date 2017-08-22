@@ -16,7 +16,7 @@ tags:
 
 I always build pages locally before uploading to GitHub, I can rebuild the site in many different ways, but the most common way is to run  
  {% highlight Shell%}
- jekyll serve 
+ ~/git/myblog$ jekyll serve 
  {% endhighlight %}
  under my web project folder, which launches a web server and auto-regenerates my site when a file is updated.
 
@@ -26,7 +26,7 @@ If you want to access the web pages on the other client, there is a way to start
   
 {% highlight Shell %}
 # assuming server ip address is 192.168.0.100 
-bundle exec jekyll serve --host 192.168.0.100
+~/git/myblog$ bundle exec jekyll serve --host 192.168.0.100
 {% endhighlight %}
 
 > Now, You can access the web pages by access **http://192.168.0.100:4000** from anyway you want within the intranet.
