@@ -162,11 +162,9 @@ int main(){
 ![HelloOsg run][HelloOsg run]
 
 
-[create new project]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt01.png
-[application settings]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt02.png
-[project properties1]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt03.png
-[project properties2]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt04.png
-[project properties3]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt05.png
-[HelloOsg run]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt06.png
-
-
+[create new project]: {{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt01.png
+[application settings]: {{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt02.png
+[project properties1]: {{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt03.png
+[project properties2]: {{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt04.png
+[project properties3]: {{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt05.png
+[HelloOsg run]: {{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt06.png

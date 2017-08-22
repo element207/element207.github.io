@@ -109,9 +109,9 @@ If building or running above project with problems, please check another tutoria
 {: .notice--info}
 
 
-[create new project]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg01.png
-[application settings]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg02.png
-[project properties]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg03.png
-[HelloOsg run]:{{site.url}}{{site.baseurl}}/assets/images/osg/glider.jpg
+[create new project]: {{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg01.png
+[application settings]: {{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg02.png
+[project properties]: {{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg03.png
+[HelloOsg run]: {{site.url}}{{site.baseurl}}/assets/images/osg/glider.jpg
 
 
