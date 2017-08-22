@@ -1,5 +1,5 @@
 ---
-titile: OSG HelloWorld VS2015 Example
+titile: OSG HelloWorld QT Example
 categories: 
           - Tutorials
 tags:          
@@ -7,7 +7,7 @@ tags:
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/w-home-page.jpg
-excerpt: This is an instruction of saying _Hello World!_ in OSG style. This project will build by using Visual Studio 2015.
+excerpt: This is an instruction of saying _Hello World!_ in OSG style. This project will build by using QtCreator.
 mathjax: true
 ---
 
@@ -25,23 +25,26 @@ mathjax: true
 * System environment has been set corroctly
     * _PATH_          - add D:\OSG\bin to _PATH_
     * _OSG_FILE_PATH_ - create this key with value _D:\OSG\data_  
+* Qt Kit installed
+    * MSVC2015 32bit or 64bit should be same with OSG library build      
 
 
 # Overview
 Normally you can find many instructions to say "Hello World" in OSG style.  
 It should look like following steps:
-> 1. Create a empty win32 console application.
+> 1. Create a empty Qt Console Application.
 2. Add OSG lib to project properties
 3. Add codes to show a 3D model
 4. Compile and run application. 
 
 # Create Project
-> Create an empty win32 console appliction project.
+> Create an empty **_Qt Console Application_** project.
 
 ### Create new project
 
-> file -> new -> project...  
-> select -> Win32 -> Win32 Console Application -> OK  
+> file -> New File or Project...    
+> select -> Application -> Qt Console Application -> Choose...  
+> Build system -> qmake -> Next -> Kit Selection -> MSVC2015 64bit -> Finish
 
 ![create new project][create new project]
 
@@ -51,21 +54,60 @@ It should look like following steps:
 
 ### Configure Project Properties
 
-> project -> Properties -> VC++ Directories  
-> Executable Directories - add **_D:\OSG\bin_**  
-> Include Directories - add **_D:\OSG\include_**  
-> Library Directories - add **_D:\OSG\lib_**  
+> right click project -> Add libraries...    
+> Type -> select **_External library_**  -> Next  
+> Details select **_D:\OSG\lib\osg.lib_** -> Next   
+> Summary -> **_Finish_**  
+> Follow the same process to add **_osgViewer.lib, osgDB.lib, OpenThreads.lib_**  
+> Build -> **_Run qmake_**
 
-![project properties][project properties]  
+**Important**
+It's a very important procedure never forget it, is to run **_qmake_** again after adding library, or it will not be imported to the project.
+{: .notice--info}
+
+![project properties][project properties1]
+
+![project properties][project properties2]  
+
+![project properties][project properties3]    
 
 **Notice**  
-pay more attention to using same x64 or x86 **_Platform_** configuration!
+pay more attention to using same x64 or x32 **_Platform_** configuration!
 {: .notice--danger}
 
 # Add Codes
 
 
 > Normally codes will be like this:
+
+{% highlight C++ %}
+
+#include <osgViewer/Viewer>
+#include <osgdb/readfile>
+
+
+int main(){
+
+    osg::ref_ptr <osgViewer::Viewer> viewer = new osgViewer::Viewer;
+
+    // set background color to dark
+    viewer->getCamera()->setClearColor(osg::Vec4(0.2f, 0.2f,0.2f, 0.0f));
+
+    // load osg model data which has been set under "OSG_FILE_PATH"
+    viewer->setSceneData(osgDB::readNodeFile("glider.osg"));
+
+    // set window start position and size
+    viewer->setUpViewInWindow(400,200,800,600);
+    viewer->realize();
+
+    // run viewer
+    int ret = viewer->run();
+    return ret;
+}
+{% endhighlight %}
+
+
+> Alternatively, if we want to keep the same source code also can be built on Visual Studio, can add following code
 
 {% highlight C++ %}
 
@@ -85,15 +127,29 @@ pay more attention to using same x64 or x86 **_Platform_** configuration!
 #include <windows.h>
 #endif
 
-#include <osgviewer/viewer>
+#include <osgViewer/Viewer>
 #include <osgdb/readfile>
 
-int main()
-{
-	osg::ref_ptr <osgViewer::Viewer> viewer = new osgViewer::Viewer;
-	viewer->setSceneData(osgDB::readNodeFile("glider.osg"));
-	return viewer->run();
+
+int main(){
+
+    osg::ref_ptr <osgViewer::Viewer> viewer = new osgViewer::Viewer;
+
+    // set background color to dark
+    viewer->getCamera()->setClearColor(osg::Vec4(0.2f, 0.2f,0.2f, 0.0f));
+
+    // load osg model data which has been set under "OSG_FILE_PATH"
+    viewer->setSceneData(osgDB::readNodeFile("glider.osg"));
+
+    // set window start position and size
+    viewer->setUpViewInWindow(400,200,800,600);
+    viewer->realize();
+
+    // run viewer
+    int ret = viewer->run();
+    return ret;
 }
+
 {% endhighlight %}
 
 
@@ -104,14 +160,11 @@ int main()
 ![HelloOsg run][HelloOsg run]
 
 
-**OSG VS2015 Troubleshooting**
-If building or running above project with problems, please check another tutorial. [LEARN MORE]({{ site.baseurl }}{% post_url 2017-08-14-OSG-VS2015-TroubleShooting %}){: .btn .btn--info}
-{: .notice--info}
-
-
-[create new project]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg01.png
-[application settings]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg02.png
-[project properties]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsg03.png
-[HelloOsg run]:{{site.url}}{{site.baseurl}}/assets/images/osg/glider.jpg
+[create new project]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt01.png
+[application settings]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt02.png
+[project properties1]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt03.png
+[project properties2]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt04.png
+[project properties3]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt05.png
+[HelloOsg run]:{{site.url}}{{site.baseurl}}/assets/images/posts/HelloOsg/HelloOsgQt06.png
 
 
