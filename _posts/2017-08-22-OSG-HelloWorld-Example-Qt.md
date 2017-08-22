@@ -42,26 +42,25 @@ It should look like following steps:
 
 ### Create new project
 
-> file -> New File or Project...    
-> select -> Application -> Qt Console Application -> Choose...  
-> Build system -> qmake -> Next -> Kit Selection -> MSVC2015 64bit -> Finish
+> **_File_** -> **_New File or Project..._**    
+> select -> **_Application_** -> **_Qt Console Application_** -> **_Choose..._**  
+> _Build system_ -> **_qmake_** -> Next  
+> _Kit Selection_ -> **_MSVC2015 64bit_** -> **_Finish_**
 
 ![create new project][create new project]
-
-> Application Settings -> check Empty project -> Finish  
 
 ![application settings][application settings]
 
 ### Configure Project Properties
 
-> right click project -> Add libraries...    
+> right click project -> **Add libraries...**    
 > Type -> select **_External library_**  -> Next  
 > Details select **_D:\OSG\lib\osg.lib_** -> Next   
 > Summary -> **_Finish_**  
 > Follow the same process to add **_osgViewer.lib, osgDB.lib, OpenThreads.lib_**  
 > Build -> **_Run qmake_**
 
-**Important**
+**Important**  
 It's a very important procedure never forget it, is to run **_qmake_** again after adding library, or it will not be imported to the project.
 {: .notice--info}
 
