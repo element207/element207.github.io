@@ -14,18 +14,22 @@ tags:
 
 # Welcome to Jekyll!
 
-I always build pages locally before uploading to GitHub, I can rebuild the site in many different ways, but the most common way is to run `jekyll serve` under my web project folder, which launches a web server and auto-regenerates my site when a file is updated.
+I always build pages locally before uploading to GitHub, I can rebuild the site in many different ways, but the most common way is to run  
+ {% highlight Shell%}
+ jekyll serve 
+ {% endhighlight %}
+ under my web project folder, which launches a web server and auto-regenerates my site when a file is updated.
 
-but you can only access the web on the server machine itself, because it is using **http://127.0.0.1:4000** to host the pages.
+> But you can only access the web on the server machine itself, because it is using **http://127.0.0.1:4000** to host the pages.
 
-if you want to access the web pages on the other client, there is a way to start web server:
+If you want to access the web pages on the other client, there is a way to start web server:
   
 {% highlight Shell %}
-# assuming my ip address is 192.168.0.100 
+# assuming server ip address is 192.168.0.100 
 bundle exec jekyll serve --host 192.168.0.100
 {% endhighlight %}
 
-> new, You can access the web pages by access **http://192.168.0.100:4000** from anyway you want within the intranet.
+> Now, You can access the web pages by access **http://192.168.0.100:4000** from anyway you want within the intranet.
 
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. 
