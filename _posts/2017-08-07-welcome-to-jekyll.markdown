@@ -29,7 +29,7 @@ If you want to access the web pages on the other client, there is a way to start
 $ bundle exec jekyll serve --host 192.168.0.100
 {% endhighlight %}
 
-> Now, You can access the web pages by access **http://192.168.0.100:4000** from anyway you want within the intranet.
+> Now, You can access the web pages by access **http://192.168.0.100:4000** from anywhere you want within the intranet.
 
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. 
