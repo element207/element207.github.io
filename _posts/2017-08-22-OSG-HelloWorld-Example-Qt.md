@@ -57,7 +57,10 @@ It should look like following steps:
 > Type -> select **_External library_**  -> Next  
 > Details select **_D:\OSG\lib\osg.lib_** -> Next   
 > Summary -> **_Finish_**  
-> Follow the same process to add **_osgViewer.lib, osgDB.lib, OpenThreads.lib_**  
+> Follow the same process to add  
+**_osgViewer.lib**  
+**osgDB.lib**  
+**OpenThreads.lib_**    
 > Build -> **_Run qmake_**
 
 **Important**  
