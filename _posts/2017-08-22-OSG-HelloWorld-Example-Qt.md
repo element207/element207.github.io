@@ -58,9 +58,9 @@ It should look like following steps:
 > Details select **_D:\OSG\lib\osg.lib_** -> Next   
 > Summary -> **_Finish_**  
 > Follow the same process to add  
-**_osgViewer.lib**  
-**osgDB.lib**  
-**OpenThreads.lib_**    
+**_osgViewer.lib  
+osgDB.lib  
+OpenThreads.lib_**    
 > Build -> **_Run qmake_**
 
 **Important**  
