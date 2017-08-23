@@ -67,11 +67,11 @@ OpenThreads.lib_**
 It's a very important procedure never forget it, is to run **_qmake_** again after adding library, or it will not be imported to the project.
 {: .notice--info}
 
-![project properties][project properties1]
+![project properties][project properties1]{: .align-center}
 
-![project properties][project properties2]  
+![project properties][project properties2]{: .align-center}  
 
-![project properties][project properties3]    
+![project properties][project properties3]{: .align-center}
 
 **Notice**  
 pay more attention to using same x64 or x32 **_Platform_** configuration!
