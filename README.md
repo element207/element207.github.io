@@ -1,33 +1,14 @@
----
-layout: splash
-permalink: /
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/w-home-page.jpg
-  caption: "<i>This site is created by Minimal Mistakes Theme, for more information check Quick-Guide.</i>"
-  cta_label: "More Info about Jekyll"
-  cta_url: "http://jekyllrb.com/"
-excerpt: 'Professional blogs and tutorials for reference in future .'
-feature_row:
-  - image_path: /assets/images/teaser-tutorials.png
-    title: "Tutorials"
-    excerpt: "Tool installation, libraries usage hacks, computer graphics and more."
-    url: "/tutorials/"
-    btn_label: "View List"
-  - image_path: /assets/images/teaser-projects.png
-    title: "Projects"
-    excerpt: "Overview of past and current projects.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-    url: "/portfolio/"
-    btn_label: "View List"
-  - image_path: /assets/images/teaser-resources.JPG
-    title: "Resources"
-    excerpt: "Compilation of favorite books and media resources."
-    url: "/resources/"
-    btn_label: "View List"
-intro:
-  - excerpt: 'Get notified when I add new post &nbsp; [<i class="fa fa-twitter"></i> @Wayne](https://twitter.com/OUI_Wayne){: .btn .btn--twitter}'
----
 
-{% include feature_row id="intro" type="center" %}
+# Welcome to my project!
 
-{% include feature_row id="feature_row" %}
+**_This Projcet is for recording Professional blogs and tutorials for future use._**
+_This site is created by Minimal Mistakes Theme, for more information check Quick-Guide._
+
+
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+
