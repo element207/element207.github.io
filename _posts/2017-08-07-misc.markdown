@@ -1,0 +1,28 @@
+---
+title:  "Misc"
+date:   2017-08-07 11:41:41 +0800
+categories: 
+          - Tutorials
+tags:          
+          - misc
+          - problems
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/w-home-page.jpg
+  excerpt: For recording many strange problems which's resolution usually cannot be found on the Internet.
+
+---
+
+{% include toc %}
+
+# Markdown footnote error
+
+> If you edit markdown files with eclipse WikiTest Editor, sometimes it may report errors on your editor when you are using the reference link for images or links.
+[footnote error][footnote-error] 
+
+**Error Info**  
+The error reports `footnote 'footnote-error' is miss` which is obviously existing at the end of this text.
+but it won't effect the page build result, this page can display correctly.
+
+[footnote-error]:{{site.url}}{{site.baseurl}}/assets/images/posts/misc/misc001.png
+

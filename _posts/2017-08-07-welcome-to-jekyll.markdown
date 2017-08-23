@@ -12,6 +12,8 @@ tags:
           - command
 ---
 
+{% include toc %}
+
 # Welcome to Jekyll!
 
 I always build pages locally before uploading to GitHub, I can rebuild the site in many different ways, but the most common way is to run  
@@ -22,6 +24,7 @@ I always build pages locally before uploading to GitHub, I can rebuild the site 
 
 > But you can only access the web on the server machine itself, because it is using **http://127.0.0.1:4000** to host the pages.
 
+# Specify Jekyll Serve IP
 If you want to access the web pages on the other client, there is a way to start web server:
   
 {% highlight Shell %}
