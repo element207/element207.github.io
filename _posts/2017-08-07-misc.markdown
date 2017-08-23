@@ -18,7 +18,7 @@ header:
 # Markdown footnote error
 
 > If you edit markdown files with eclipse WikiTest Editor, sometimes it may report errors on your editor when you are using the reference link for images or links.
-[footnote error][footnote-error] 
+![footnote error][footnote-error] 
 
 **Error Info**  
 The error reports `footnote 'footnote-error' is miss` which is obviously existing at the end of this text.
