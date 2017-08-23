@@ -1,15 +1,16 @@
 ---
 title:  "Welcome to Jekyll!"
 date:   2017-08-07 11:41:41 +0800
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/w-home-page.jpg
-  excerpt: Favorite commands to be used frequently.
 categories:
           - Tutorials
 tags:          
           - jekyll
           - command
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/w-home-page.jpg
+excerpt: Favorite commands to be used frequently.
+mathjax: true
 ---
 
 
