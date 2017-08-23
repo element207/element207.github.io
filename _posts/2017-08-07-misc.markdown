@@ -1,16 +1,15 @@
 ---
 title:  "Misc"
 date:   2017-08-07 11:41:41 +0800
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/w-home-page.jpg
+  excerpt: For recording many strange problems which's resolution usually cannot be found on the Internet.
 categories: 
           - Tutorials
 tags:          
           - misc
           - problems
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/w-home-page.jpg
-  excerpt: For recording many strange problems which's resolution usually cannot be found on the Internet.
-
 ---
 
 {% include toc %}
