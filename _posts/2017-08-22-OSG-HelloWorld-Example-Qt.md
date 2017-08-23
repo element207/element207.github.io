@@ -157,7 +157,7 @@ int main(){
 
 # Compile and Run
 
-> A 3D model should be displayed in screen correctly.
+> A 3D model should be displayed on the screen correctly.
 
 ![HelloOsg run][HelloOsg run]
 
