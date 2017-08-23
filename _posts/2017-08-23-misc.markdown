@@ -12,8 +12,14 @@ tags:
           - problems
 ---
 
-{% include toc %}
 
+{% include toc %}
+categories: 
+          - Tutorials
+tags:          
+          - misc
+          - problems
+excerpt: For recording many strange problems which's resolution usually cannot be found on the Internet.
 # Markdown footnote error
 
 > If you edit markdown files with eclipse WikiTest Editor, sometimes it may report errors on your editor when you are using the reference link for images or links.
