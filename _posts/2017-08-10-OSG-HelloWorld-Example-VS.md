@@ -43,11 +43,11 @@ It should look like following steps:
 > file -> new -> project...  
 > select -> Win32 -> Win32 Console Application -> OK  
 
-![create new project][create new project]
+![create new project][create new project]{: .align-center}
 
 > Application Settings -> check Empty project -> Finish  
 
-![application settings][application settings]
+![application settings][application settings]{: .align-center}
 
 ### Configure Project Properties
 
@@ -56,7 +56,7 @@ It should look like following steps:
 > Include Directories - add **_D:\OSG\include_**  
 > Library Directories - add **_D:\OSG\lib_**  
 
-![project properties][project properties]  
+![project properties][project properties]{: .align-center}
 
 **Notice**  
 pay more attention to using same x64 or x86 **_Platform_** configuration!
@@ -101,7 +101,7 @@ int main()
 
 > A 3D model should be displayed in screen correctly.
 
-![HelloOsg run][HelloOsg run]
+![HelloOsg run][HelloOsg run]{: .align-center}
 
 
 **OSG VS2015 Troubleshooting**
