@@ -1,7 +1,7 @@
 
 # Welcome to my project!
 
-**_This Projcet is for recording Professional blogs and tutorials for future use._**
+**_This Projcet is for recording Professional blogs and tutorials for future use._**  
 _This site is created by Minimal Mistakes Theme, for more information check Quick-Guide._
 
 
