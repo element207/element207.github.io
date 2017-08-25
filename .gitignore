@@ -13,4 +13,5 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 _posts/oldpost
+_samples
 

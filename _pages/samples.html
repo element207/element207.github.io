@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "Minimal Mistakes Theme Sampes"
+permalink: /samples/
+header:
+    overlay_color: "#5e616c"
+    overlay_image: /assets/images/w-home-page.jpg
+author_profile: true
+author: Michael Rose
+---
+
+{% include base_path %}
+{% capture written_label %}'None'{% endcapture %}
+
+{% for collection in site.collections %}
+  {% unless collection.output == false or collection.label == "samples" %}
+    {% capture label %}{{ collection.label }}{% endcapture %}
+    {% if label != written_label %}
+      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
+      {% capture written_label %}{{ label }}{% endcapture %}
+    {% endif %}
+  {% endunless %}
+  {% for post in collection.docs %}
+    {% unless collection.output == false or collection.label == "posts" %}
+      {% include archive-single.html %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}

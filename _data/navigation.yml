@@ -8,3 +8,6 @@ main:
     url: /contact/
   - title: "Quick-Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Samples"
+    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+    #    url: /samples/

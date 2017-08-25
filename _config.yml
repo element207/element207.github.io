@@ -259,8 +259,20 @@ defaults:
       author_profile: false
       share: true
 
+   # _samples
+  - scope:
+      path: ""
+      type: samples
+    values:
+      layout: single
+      author_profile: true
+      share: true
 # Collections
 collections:
   portfolio:
+    output: true
+    permalink: /:collection/:path/
+collections:
+  samples:
     output: true
     permalink: /:collection/:path/
