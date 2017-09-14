@@ -90,7 +90,6 @@ and we may not find an old platform easily, it's good to use docker for it.
 ### Find an image in docker
 You can find a specific version of CentOs on docker, for example we need CentOs 6
   
-> Find CentOs 6
 {% highlight Shell %}
 $ docker search centos6
 NAME                                     DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
@@ -200,9 +199,9 @@ $ docker rm $(docker ps -aq)
 
 ### run project in docker
 
->Clone project from git repository  
->Make sure cmake is installed
->Build and Run project  
+Clone project from git repository  
+Make sure cmake is installed  
+Build and Run project  
 
   {% highlight Shell %}
 # make build directory under project path
