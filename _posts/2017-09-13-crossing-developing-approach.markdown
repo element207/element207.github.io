@@ -21,7 +21,7 @@ mathjax: true
 
 # Overview
 
-Sometime for convenient, user custom or other reasons, I'm always looking for an approach to develop Linux applications on Windows environment, until now I got a good way for this.
+Sometimes for convenient reasons, user custom or other reasons, I'm always looking for an approach to develop Linux applications on Windows environment, until now I got a good way for this.
 
 
 > 1. Create a normal project on Windows with eclipse CDT.
