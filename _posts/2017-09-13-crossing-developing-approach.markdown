@@ -39,13 +39,13 @@ Sometime for convenient, user custom or other reasons, I'm always looking for an
 
 
 # On Windows Side
->Create a *normal project* with *CMakelist.txt* and *.gitignore*, commit the project to git repository.(_*github*_ or _*gitlab*_)
+>Create a **normal project** with **CMakelist.txt** and **.gitignore**, commit the project to git repository.(**github** or **gitlab**)
 
 ### Create a normal project with Eclipse CDT
 
->*File* -> *New* -> *Project...* -> *General* -> *Project*
->add *CMakeList.txt* and *.gitignore* [gitignore](https://github.com/github/gitignore){: .btn .btn--info}
->Commit to git repository.
+>**File** -> **New** -> **Project...** -> **General** -> **Project**  
+>add **CMakeList.txt** and [.gitignore](https://github.com/github/gitignore){: .btn .btn--info}  
+>Commit to git repository.  
   
 {% highlight Shell %}
 # assuming server ip address is 192.168.0.100 
