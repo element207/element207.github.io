@@ -39,7 +39,8 @@ Sometime for convenient, user custom or other reasons, I'm always looking for an
 
 
 # On Windows Side
-Create a **normal project** with **CMakelist.txt** and **.gitignore**, commit the project to git repository.(**github** or **gitlab**)
+Create a **normal project** with **CMakelist.txt** and **.gitignore**,  
+commit the project to git repository.(**github** or **gitlab**)
 
 ### Create a normal project
 
@@ -129,8 +130,6 @@ Status: Downloaded newer image for imagine10255/centos6-lnmp-php56:latest
 
 {% endhighlight %}
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. 
-
 ### Rename an image
 The names of images downloaded from repository are various, we need give an name which is easy to understand, we can rename the images.
 
@@ -174,7 +173,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 c4e35c206aa4        centos6-gcc49       "/usr/bin/scl enable "   15 seconds ago      Created                                       kickass_jepsen
 
 # The container name is generated random as "kickass_jepsen", rename it
-$ docker rename kickass\_jepsen cpp\_build
+$ docker rename kickass_jepsen cpp_build
 $ docker ps -a
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                    PORTS               NAMES
 c4e35c206aa4        centos6-gcc49       "/usr/bin/scl enable "   15 seconds ago      Created                                       cpp_build
@@ -197,9 +196,9 @@ $ docker rm $(docker ps -aq)
 
 ### run project in doecker
 
->* Clone project from git repository  
->* Make sure cmake is installed
->* Build and Run project  
+>Clone project from git repository  
+>Make sure cmake is installed
+>Build and Run project  
 
   {% highlight Shell %}
 # make build directory under project path
