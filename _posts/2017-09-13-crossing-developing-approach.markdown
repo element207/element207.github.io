@@ -39,7 +39,7 @@ Sometime for convenient, user custom or other reasons, I'm always looking for an
 
 
 # On Windows Side
->Create a **normal project** with **CMakelist.txt** and **.gitignore**, commit the project to git repository.(**github** or **gitlab**)
+Create a **normal project** with **CMakelist.txt** and **.gitignore**, commit the project to git repository.(**github** or **gitlab**)
 
 ### Create a normal project
 
@@ -52,7 +52,7 @@ In Eclipse CDT
 
 >Right click project -> **New** -> **Convert to a C/C++ Project**    
 >**Excutable** -> **Cygwin GCC** -> **Finish**  
->**Developing ...** -> **Build ...** -> **Run**
+**Developing ...** -> **Build ...** -> **Run**
 
 **Cygwin Info**
 [Installing Cygwin On Windows][Installing Cygwin]
@@ -60,11 +60,11 @@ In Eclipse CDT
 
 
 # On Linux Side
->Clone repository, convert project to **Linux Excutable** type.
+Clone repository, convert project to **Linux Excutable** type.
 
 ### Clone repository
 
->Clone project from git repository.  
+Clone project from git repository.  
 
 ###  Import project
 
@@ -197,9 +197,9 @@ $ docker rm $(docker ps -aq)
 
 ### run project in doecker
 
->Clone project from git repository  
->Make sure cmake is installed
->Build and Run project  
+>* Clone project from git repository  
+>* Make sure cmake is installed
+>* Build and Run project  
 
   {% highlight Shell %}
 # make build directory under project path
