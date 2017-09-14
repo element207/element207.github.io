@@ -41,11 +41,21 @@ Sometime for convenient, user custom or other reasons, I'm always looking for an
 # On Windows Side
 >Create a **normal project** with **CMakelist.txt** and **.gitignore**, commit the project to git repository.(**github** or **gitlab**)
 
-### Create a normal project with Eclipse CDT
+### Create a normal project
 
+In Eclipse CDT
 >**File** -> **New** -> **Project...** -> **General** -> **Project**  
 >add **CMakeList.txt** and [.gitignore](https://github.com/github/gitignore){: .btn .btn--info}  
 >Commit to git repository.  
+
+### Convert to Excutable project
+
+>Right click project -> **New** -> **Convert to a C/C++ Project**    
+>**Excutable** -> **Cygwin GCC** -> **Finish**  
+
+**Cygwin Info**
+[Installing Cygwin On Windows](https://cygwin.com/install.html)
+{: .notice--info}
   
 {% highlight Shell %}
 # assuming server ip address is 192.168.0.100 
