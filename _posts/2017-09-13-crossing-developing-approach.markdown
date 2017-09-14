@@ -194,7 +194,7 @@ $ docker rm $(docker ps -aq)
 
 {% endhighlight %}
 
-### run project in doecker
+### run project in docker
 
 >Clone project from git repository  
 >Make sure cmake is installed
