@@ -104,7 +104,6 @@ mconcas/centos6-autobuild-container                                             
 touche/centos6                           Base centos6 container.                         0
 zzzshanghai/centos6-64bit                centos6-64bit                                   0                    [OK]
 varsy/centos6-nrpe                                                                       0                    [OK]
-miko2u/centos6                           CentOS6 »’±æ’Z≠hæ≥                                   0                    [OK]
 chrisshort/docker-centos6-ansible        docker-centos6-ansible                          0                    [OK]
 xieyangwanmu/centos6.8-ssh               Installed openssh-server on centos6.8, def...   0
 teradatalabs/centos6-ssh-oj8             Centos with ssh and java                        0
