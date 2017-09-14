@@ -82,6 +82,42 @@ Sometime we have to build application on an older platform to avoid newer librar
 and we may not find an old platform easily, it's good to use docker for it.
 
 
+### Find an image in docker
+You can find a specific version of CentOs on docker, for example we need CentOs 6
+  
+> Find CentOs 6
+{% highlight Shell %}
+$ docker search centos6
+NAME                                     DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+imagine10255/centos6-lnmp-php56          centos6-lnmp-php56                              30                   [OK]
+lemonbar/centos6-ssh                     Installed openssh-server on centos6, defau...   14                   [OK]
+guyton/centos6                           From official centos6 container with full ...   7                    [OK]
+mohri1219/centos6.7-ruby2.2.2-mysql5.6   centos6.7-ruby2.2.2-mysql5.6                    3                    [OK]
+antwnis/centos6-cloudera-5.3                                                             2
+teradatalabs/centos6-java8-oracle        Docker image of CentOS 6 with Oracle JDK 8...   2
+sergeyzh/centos6-nginx                                                                   2                    [OK]
+nclans/centos6                                                                           1
+edrans/centos6                                                                           1                    [OK]
+adrianotto/centos6                       CentOS 6 latest, updates with yum update h...   0                    [OK]
+tacit/centos6-chef                       Latest Centos6 release with pre installed ...   0
+mconcas/centos6-autobuild-container                                                      0                    [OK]
+touche/centos6                           Base centos6 container.                         0
+zzzshanghai/centos6-64bit                centos6-64bit                                   0                    [OK]
+varsy/centos6-nrpe                                                                       0                    [OK]
+miko2u/centos6                           CentOS6 »’±æ’Z≠hæ≥                                   0                    [OK]
+chrisshort/docker-centos6-ansible        docker-centos6-ansible                          0                    [OK]
+xieyangwanmu/centos6.8-ssh               Installed openssh-server on centos6.8, def...   0
+teradatalabs/centos6-ssh-oj8             Centos with ssh and java                        0
+surkutlawar/centos6-webserver                                                            0
+varsy/centos6-utils                                                                      0                    [OK]
+rhub/centos6-epel-rdt                                                                    0
+rhub/centos6-epel                                                                        0
+13652604711/centos6.8-ssh                                                                0
+nodesource/centos6                       The Official NodeSource Docker Images           0
+
+{% endhighlight %}
+
+
 
 [gitignore]: https://github.com/github/gitignore
 [Installing Cygwin]: https://cygwin.com/install.html
