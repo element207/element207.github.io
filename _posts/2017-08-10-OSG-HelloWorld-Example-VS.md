@@ -31,8 +31,8 @@ mathjax: true
 Normally you can find many instructions to say "Hello World" in OSG style.  
 It should look like following steps:
 > 1. Create a empty win32 console application.
-2. Add OSG lib to project properties
-3. Add codes to show a 3D model
+2. Add OSG lib to project properties.
+3. Add codes to show a 3D model.
 4. Compile and run application. 
 
 # Create Project
