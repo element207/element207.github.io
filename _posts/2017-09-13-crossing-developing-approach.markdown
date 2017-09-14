@@ -59,6 +59,28 @@ In Eclipse CDT
 {: .notice--info}
 
 
+# On Linux Side
+>Clone repository, convert project to **Linux Excutable** type.
+
+### Clone repository
+
+>Clone project from git repository.  
+
+###  Import project
+
+In Eclipse CDT  
+>**File** -> **Import...** -> **General** -> **Existing project into Workspace**
+
+### Convert to Excutable project
+
+>Right click project -> **New** -> **Convert to a C/C++ Project**    
+>**Excutable** -> **Cross GCC** -> **Finish**  
+>**git pull ...** -> **Build ...** -> **Run**
+
+# Inside docker
+Sometime we have to build application on an older platform to avoid newer library reference which cannot be found on old platform.  
+and we may not find an old platform easily, it's good to use docker for it.
+
 
 
 [gitignore]: https://github.com/github/gitignore
