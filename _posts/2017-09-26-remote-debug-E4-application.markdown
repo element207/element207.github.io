@@ -18,7 +18,7 @@ mathjax: true
 
 # Remote Debug E4 Application
 
-I am working on a UI utility which is set to call a set of commands only existing on server side. So it's impossible to debug appliction on local envirnoment. It has to be done on server side, following steps is an approach to accomlish this target.
+I am working on a UI utility which is set to call a set of commands only existing on server side. So it's impossible to debug application on local envirnoment. It has to be done on server side, following steps is an approach to accomlish this target.
 
 ## Start E4 Applicaton
  {% highlight Shell%}
