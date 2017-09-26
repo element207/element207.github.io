@@ -23,19 +23,23 @@ mathjax: true
 
 Sometimes for convenient reasons, user custom or other reasons, I'm always looking for an approach to develop Linux applications on Windows environment, until now I got a good way for this.
 
-
+**On Windows**
 > 1. Create a normal project on Windows with eclipse CDT.
 2. Create CMakeList.txt to the project.
 3. Create .gitignore file which ignores those files only work on Windows or Linux.
 4. Commit project to git repository.
 5. Convert project to Executable Cygwin GCC project on Windows.
-6. Developing push to git when done.
-7. Clone the project from Linux.
-8. Add project to eclise CDt on Linux.
-9. Convert project to Executable Cross GCC project on Linux.
-10. Pull update before test on Linux.
-11. Clone the project from any version inside docker containers.
-12. Build application from older version of Linux.
+6. Developing, push to git when done.
+
+**On Linux**
+>1. Clone the project from Linux.
+2. Add project to eclipse CDT on Linux.
+3. Convert project to Executable Cross GCC project on Linux.
+4. Pull updates from git before test on Linux.
+
+**Inside docker**
+>1. Clone the project from any version inside docker containers.
+2. Build application from older version of Linux.
 
 
 # On Windows Side
@@ -86,7 +90,6 @@ and we may not find an old platform easily, it's good to use docker for it.
 ### Find an image in docker
 You can find a specific version of CentOs on docker, for example we need CentOs 6
   
-> Find CentOs 6
 {% highlight Shell %}
 $ docker search centos6
 NAME                                     DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
@@ -196,9 +199,9 @@ $ docker rm $(docker ps -aq)
 
 ### run project in docker
 
->Clone project from git repository  
->Make sure cmake is installed
->Build and Run project  
+Clone project from git repository  
+Make sure cmake is installed  
+Build and Run project  
 
   {% highlight Shell %}
 # make build directory under project path
