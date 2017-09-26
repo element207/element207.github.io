@@ -33,6 +33,6 @@ I am working on a UI utility which is set to call a set of commands only existin
 Select product project -> specify server ip address and port -> Debug
 
 
-Check out the [Java and Eclipse Plugin Development: Eclipse RCP remote debugging][remote-debug]{: .btn .btn--info} for more info on how to do this.
+Check out the [Eclipse RCP remote debugging][remote-debug]{: .btn .btn--info} for more info on how to do this.
 
 [remote-debug]: http://exploreeclipse.blogspot.hk/2016/05/eclipse-rcp-remote-debugging.html
