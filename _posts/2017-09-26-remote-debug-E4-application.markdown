@@ -9,7 +9,7 @@ tags:
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/w-home-page.jpg
-excerpt: Favorite commands to be used frequently.
+excerpt: Eclipse 4 RCP Application development.
 mathjax: true
 ---
 
