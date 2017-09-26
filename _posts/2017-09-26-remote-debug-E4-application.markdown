@@ -20,7 +20,7 @@ mathjax: true
 
 I am working on a UI utility which is set to call a set of commands only existing on server side. So it's impossible to debug application on local envirnoment. It has to be done on server side, following steps is an approach to accomlish this target.
 
-## Start E4 Applicaton
+## Start E4 Applicaton  in listening mode
  {% highlight Shell%}
  # on server side start application with following arguments
  $ e4application -vmargs -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000
