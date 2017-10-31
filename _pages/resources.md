@@ -30,6 +30,7 @@ In this list I try to include some of my favorite resources. This list is occasi
 * [Communication for nerds](http://www.communicationfornerds.com/) is a great blog on improving your social skills in a work environment. Real life advice and scientific backups make it a real gem.
 * [The power of Git subtree](https://developer.atlassian.com/blog/2015/05/the-power-of-git-subtree/) git command subtree is one of several ways Git projects can manage project dependencies.
 * [Git subtree](https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree) the alternative to Git submodule.
+* [Git submodules](https://www.atlassian.com/blog/git/git-submodules-workflows-tips?_ga=2.56466158.411026610.1509354932-1003279797.1490941535) core concept, workflows, and tips for git submodules.
 
 # Magazines
 
