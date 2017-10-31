@@ -28,6 +28,8 @@ In this list I try to include some of my favorite resources. This list is occasi
 * [Engineering impact](https://blog.gitprime.com/) is a GitPrime blog on trends, interviews and practical advice on leading effective engineering teams.
 * [Land any job you want](http://landanyjobyouwant.com/) - an unconventional career advice blog. In my opinion, one of the best career advice on the Internet. The blog often highlights different techniques on how to get way before any other candidate when applying for a job position. The author provides lots of real examples and step-by-step instructions on how to land your perfect job.
 * [Communication for nerds](http://www.communicationfornerds.com/) is a great blog on improving your social skills in a work environment. Real life advice and scientific backups make it a real gem.
+* [The power of Git subtree](https://developer.atlassian.com/blog/2015/05/the-power-of-git-subtree/) git command subtree is one of several ways Git projects can manage project dependencies.
+* [Git subtree](https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree) the alternative to Git submodule.
 
 # Magazines
 
