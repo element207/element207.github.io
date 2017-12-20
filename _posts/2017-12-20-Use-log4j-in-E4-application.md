@@ -102,15 +102,15 @@ log4j.appender.FileDebug.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} %-5p %
 ```
 ## Initialize log4j logger in lifecycle
 
-> First register a life cycle hook in E4 application
+> First to register a life cycle hook in E4 application
 
-Add life cycle hook manage by following **Tutorial**
+Add life cycle hook manage by following [**Tutorial**][lifecycle tutorial]{: .btn .btn--info}
 
 **Tutorial**  
 [Register a life cycle hook in Eclipse RCP applications - Tutorial - Vogella][lifecycle tutorial]
 {: .notice--info}
 
-> Second define log4j logger in lefecycle
+> Second to define log4j logger in lefecycle
 
 Add following codes in lifecycle manage
 
@@ -140,7 +140,7 @@ public class Manager {
 }
 ```
 
-**About log4j.properties**
+**About log4j.properties**  
 Application will use **default log4j.properties** which is in the **src** folder of the E4 application where we set by last step.
 The application will also check the install location path to find if the log4j.properties exists or not, if it does, the application
 will use this instead, so by this approach, if we want to change the log level, we can copy the DEBUG level log4j.properties file to
@@ -149,7 +149,7 @@ the application install location to get more debug information.
 
 ## Get instantiation for logging
 
-> First declare log4j in classes
+> First to declare log4j in classes
 
 ```
 
@@ -164,7 +164,7 @@ public class SampleClass {
 
 ```
 
-> Second use logger 
+> Second to use logger 
 
 ```
 
