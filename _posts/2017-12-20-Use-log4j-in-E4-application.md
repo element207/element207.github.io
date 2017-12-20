@@ -22,7 +22,7 @@ mathjax: true
 There are many blogs about how to use log4j for logging, but there hard to find an entire instruction for how to use log4j in
 E4 application, so I'm going to fill the void.
 
-## Workflow for using log4j
+## Procedure for using log4j
 1. Configure log4j
 2. Initialize log4j logger in lifecycle
 3. Get instantiation for logging
