@@ -41,6 +41,10 @@ Open _E4App_**.product** file -> on tab **Contents** click button **Add Required
 **E4app** is the name of the E4 application, for example _RCPApp.product_.
 {: .notice--info}
 
+If your product configuration is based on **features**, configure should follow:  
+Open **feature.xml** file in your feature plug-in project ->  
+on **Included Plug-ins** tab -> click **Add** button -> add **org.apache.log4j** plug-in  
+
 > Finally add **log4j.properties** file to application
 
 Add log4j.propeties file to **src** folder of the E4 application plug-in project
