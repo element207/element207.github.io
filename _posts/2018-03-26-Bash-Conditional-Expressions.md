@@ -19,14 +19,42 @@ mathjax: true
 
 # File Comparation
 
-Operator|Explaination|Example
--|-|-
--e filename|如果 filename 存在，则为真|[ -e /var/log/syslog ]
--d filename|如果 filename 为目录，则为真|[ -d /tmp/mydir ]
--f filename|如果 filename 为常规文件，则为真|[ -f /usr/bin/grep ]
--L filename|如果 filename 为符号链接，则为真|[ -L /usr/bin/grep ]
--r filename|如果 filename 可读，则为真|[ -r /var/log/syslog ]
--w filename|如果 filename 可写，则为真|[ -w /var/mytmp.txt ]
--x filename|如果 filename 可执行，则为真|[ -L /usr/bin/grep ]
-filename1 -nt filename2|如果 filename1 比 filename2 新，则为真|[ /tmp/install/etc/services -nt /etc/services ]
-filename1 -ot filename2|如果 filename1 比 filename2 旧，则为真|[ /boot/bzImage -ot arch/i386/boot/bzImage ]
+Operator|Explaination
+-|-
+-a file|True if file exists.
+-b file|True if file exists and is a block special file.
+-e file|True if file exists. 
+-d file|True if file exists and is a directory. 
+-f file|True if file exists and is a regular file. 
+-h file|True if file exists and is a symbolic link.
+-r file|True if file exists and is readable. 
+-w file|True if file exists and is writable. 
+-x file|True if file exists and is executable. 
+-L file|True if file exists and is a symbolic link. 
+file1 -nt file2|True if file1 is newer than file2, or if file1 exists and file2 does not. 
+file1 -ot file2|True if file1 is older than file2, or if file2 exists and file1 does not. 
+
+# String Comparation
+
+Operator|Explaination
+-|-
+-z string|True if the strings are not equal. 
+-n string|True if the length of string is non-zero. 
+string1 = string2|True if the strings are equal.
+string1 != string2|True if the strings are not equal. 
+
+# Arithmetic Comparation
+Operator|Explaination
+-|-
+arg1 -eq arg2 string|=
+arg1 -ne arg2 string|!=
+arg1 -lt arg2 string|<
+arg1 -lq arg2 string|<=
+arg1 -gt arg2 string|>
+arg1 -ge arg2 string|>=
+
+
+More information [Linux 之 shell 比较运算符][bash-operators]{: .btn .btn--info} 
+
+[bash-operators]: https://blog.csdn.net/ithomer/article/details/6836382
+
