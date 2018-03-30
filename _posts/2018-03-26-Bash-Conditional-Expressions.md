@@ -67,7 +67,7 @@ arg1 -ge arg2 string|>=
 
 # More Information 
 
-More information [Linux 之 shell 比较运算符][bash-operators]{: .btn .btn--info} 
+More information see [Linux 之 shell 比较运算符][bash-operators]{: .btn .btn--info} 
 
 [bash-operators]: https://blog.csdn.net/ithomer/article/details/6836382
 
