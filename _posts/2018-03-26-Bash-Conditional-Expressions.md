@@ -53,6 +53,7 @@ arg1 -lq arg2 string|<=
 arg1 -gt arg2 string|>
 arg1 -ge arg2 string|>=
 
+# More Information 
 
 More information [Linux 之 shell 比较运算符][bash-operators]{: .btn .btn--info} 
 
