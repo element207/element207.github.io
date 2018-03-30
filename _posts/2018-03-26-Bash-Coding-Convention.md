@@ -1,3 +1,21 @@
+---
+title:  "Bash Coding Convention"
+date:   2018-03-26 14:00:00 +0800
+categories:
+          - Reference
+tags:          
+          - Bash
+          - Linux
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/w-home-page.jpg
+excerpt: Bash script programing.
+mathjax: true
+---
+
+
+{% include toc %}
+
 ## Table of Contents
 
 * [Description](#description)
@@ -20,13 +38,13 @@ This is a set of `Bash` coding conventions and pratices.
 The original Vietnamese version can be found here
   http://theslinux.org/doc/bash/coding_style/.
   
-## Author. License
+  ## Author. License
   
   The author is anh K. Huynh.
   
   The work is released under a MIT license.
   
-## Tabs and Spaces
+  ## Tabs and Spaces
 
 Never use `(smart-)`tabs. Replace a tab by two spaces.
 
