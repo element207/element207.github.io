@@ -17,6 +17,10 @@ mathjax: true
 {% include toc %}
 
 
+
+
+
+
 # File Comparation
 
 Operator|Explaination
@@ -34,7 +38,10 @@ Operator|Explaination
 file1 -nt file2|True if file1 is newer than file2, or if file1 exists and file2 does not. 
 file1 -ot file2|True if file1 is older than file2, or if file2 exists and file1 does not. 
 
+
+
 # String Comparation
+
 
 Operator|Explaination
 -|-
@@ -43,7 +50,11 @@ Operator|Explaination
 string1 = string2|True if the strings are equal.
 string1 != string2|True if the strings are not equal. 
 
+
+
 # Arithmetic Comparation
+
+
 Operator|Explaination
 -|-
 arg1 -eq arg2 string|=
@@ -52,6 +63,7 @@ arg1 -lt arg2 string|<
 arg1 -lq arg2 string|<=
 arg1 -gt arg2 string|>
 arg1 -ge arg2 string|>=
+
 
 # More Information 
 
