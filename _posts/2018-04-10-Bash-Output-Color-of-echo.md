@@ -16,8 +16,9 @@ mathjax: true
 
 {% include toc %}
 
-Sometime I am trying to print a text message in the terminal using echo command.
-I want to print the message in a different color. How can I do that?
+Sometime I am trying to print a text message in the terminal using echo command. 
+I want to print the message in a different color.  
+How can I do that?  
 
 # Usage
 
