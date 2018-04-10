@@ -16,7 +16,7 @@ mathjax: true
 
 {% include toc %}
 
-Sometime I am trying to print a text message in the terminal using echo command. 
+Sometime I am trying to print a text message in the terminal using echo command.  
 I want to print the message in a different color.  
 How can I do that?  
 
@@ -59,7 +59,7 @@ echo "$(tput setaf 1)Red text $(tput setab 7)and white background$(tput sgr 0)"
 An example on ubuntu  
 ![example-ubuntu][example-ubuntu]
 
-# Foreground & background
+# Fore & background
 
 ```
 tput setab [1-7] # Set the background colour using ANSI escape
