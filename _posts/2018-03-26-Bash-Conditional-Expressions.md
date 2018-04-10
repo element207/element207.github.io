@@ -17,7 +17,7 @@ mathjax: true
 {% include toc %}
 
 
-# File Comparation
+# Test command
 
 Evaluate a conditional expression expr.
 
@@ -76,6 +76,8 @@ The test and [ builtins evaluate conditional expressions using a set of rules ba
                to precedence using the rules listed above.
 
   5 or more arguments   The expression is parsed and evaluated according to precedence using the rules listed above.
+
+# File Comparation
 
 Operator|Explaination
 -|-
