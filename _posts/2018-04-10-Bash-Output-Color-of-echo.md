@@ -45,7 +45,7 @@ echo "${red}red text ${green}green text${reset}"
 
 `tput` produces character sequences that are interpreted by the terminal as having a special meaning. They will not be shown themselves. Note that they can still be saved into files or processed as input by programs other than the terminal.
 
-# Command substitution
+# substitution
 
 It may be more convenient to insert `tput` 's output directly into your `echo` strings using [command substitution][command-substitution]{: .btn .btn--info}:
 
@@ -53,12 +53,12 @@ It may be more convenient to insert `tput` 's output directly into your `echo` s
 echo "$(tput setaf 1)Red text $(tput setab 7)and white background$(tput sgr 0)"
 ```
 
-# An Example of tput Usage
+# Example
 
 An example on ubuntu  
 ![example-ubuntu][example-ubuntu]
 
-# Foreground & background color commands
+# Foreground & background
 
 ```
 tput setab [1-7] # Set the background colour using ANSI escape
@@ -80,7 +80,7 @@ Num|Color|#define|R G B
 
 There are also non-ANSI versions of the colour setting functions (setb instead of setab, and setf instead of setaf) which use different numbers, not given here.
 
-# Text mode commands
+# Text mode
 
 ```
 tput bold    # Select bold mode
@@ -91,7 +91,7 @@ tput rev     # Turn on reverse video mode
 tput smso    # Enter standout (bold) mode
 tput rmso    # Exit standout mode
 ```
-# Cursor movement commands
+# Cursor movement
 
 ```
 tput cup Y X # Move cursor to screen postion X,Y (top left is 0,0)
@@ -105,7 +105,7 @@ tput lines   # Output the number of lines of the terminal
 tput cols    # Output the number of columns of the terminal
 ```
 
-# Clear and insert commands
+# Clear & insert
 
 ```
 tput ech N   # Erase N characters
@@ -117,7 +117,7 @@ tput ich N   # Insert N characters (moves rest of line forward!)
 tput il N    # Insert N lines
 ```
 
-# Other commands
+# Other
 
 ```
 tput sgr0    # Reset text format to the terminal's default
