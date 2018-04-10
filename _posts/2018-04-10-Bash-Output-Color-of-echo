@@ -1,5 +1,5 @@
 ---
-title:  "Bash Output color of echo"
+title:  "Bash Output Color of echo"
 date:   2018-04-10 10:05:00 +0800
 categories:
           - Reference
@@ -26,20 +26,6 @@ I want to print the message in a different color. How can I do that?
 ## Usage
 
 Specific `tput` sub-commands are discussed later.
--|-
--a file|True if file exists.
--b file|True if file exists and is a block special file.
--e file|True if file exists. 
--d file|True if file exists and is a directory. 
--f file|True if file exists and is a regular file. 
--h file|True if file exists and is a symbolic link.
--r file|True if file exists and is readable. 
--w file|True if file exists and is writable. 
--x file|True if file exists and is executable. 
--L file|True if file exists and is a symbolic link. 
-file1 -nt file2|True if file1 is newer than file2, or if file1 exists and file2 does not. 
-file1 -ot file2|True if file1 is older than file2, or if file2 exists and file1 does not. 
-
 
 
 # String Comparation
@@ -52,19 +38,6 @@ Operator|Explaination
 string1 = string2|True if the strings are equal.
 string1 != string2|True if the strings are not equal. 
 
-
-
-# Arithmetic Comparation
-
-
-Operator|Explaination
--|-
-arg1 -eq arg2 string|=
-arg1 -ne arg2 string|!=
-arg1 -lt arg2 string|<
-arg1 -lq arg2 string|<=
-arg1 -gt arg2 string|>
-arg1 -ge arg2 string|>=
 
 
 # More Information 
