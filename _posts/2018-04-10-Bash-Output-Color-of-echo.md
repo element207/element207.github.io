@@ -21,7 +21,6 @@ I want to print the message in a different color. How can I do that?
 
 # An Example of tput Usage
 
-![an example on ubuntu][example-ubuntu]
 
 ## Usage
 
