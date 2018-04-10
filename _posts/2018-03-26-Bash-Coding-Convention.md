@@ -46,7 +46,7 @@ The original Vietnamese version can be found here
   
   ## Tabs and Spaces
 
-Never use `(smart-)`tabs. Replace a tab by two spaces.
+Never use `(smart-)`tabs. Replace a tab by four spaces.
 
 Do not accept any trailing spaces.
 
