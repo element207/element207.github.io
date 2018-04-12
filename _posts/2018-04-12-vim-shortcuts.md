@@ -13,8 +13,21 @@ header:
 excerpt: vim shortcuts.
 mathjax: true
 ---
+# Table of Contents
 
-{% include toc %}
+* [Introduction](#Introduction)
+* [General](#General)
+  * [Windows](#Windows)
+  * [Entering insert mode](#Entering-insert-mode)
+* [Variable names](#variable-names)
+* [Function names](#function-names)
+* [Error handling](#error-handling)
+* [Pipe error handling](#pipe-error-handling)
+* [Automatic error handling](#automatic-error-handling)
+* [Catch up with $?](#catch-up-with-)
+* [Good lessons](#good-lessons)
+* [Resources](#resources)
+
 
 # Introduction #
 * C-a == Ctrl-a 
@@ -52,7 +65,7 @@ C-r      Redo
 C-z      send vim to background (fg brings it to front again)
 ```
 
-### Windows ####
+### Windows ###
 ```
 C-ws     Split current window horizontally (alternative :split)
 C-wv     Split current window vertically (alternative :vsplit)
