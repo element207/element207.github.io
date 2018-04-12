@@ -36,5 +36,9 @@ hi SpecialKey ctermfg=DarkGray
 set listchars=eol:$,space:.,trail:~
 " Show spacial charactors at startup
 set list
+" enable increment search
+set incsearch
+" enable autoindent
+set ai
 
 ```
