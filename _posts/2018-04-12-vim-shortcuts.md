@@ -15,18 +15,22 @@ mathjax: true
 ---
 # Table of Contents
 
-* [Introduction](#Introduction)
-* [General](#General)
-  * [Windows](#Windows)
-  * [Entering insert mode](#Entering-insert-mode)
-* [Variable names](#variable-names)
-* [Function names](#function-names)
-* [Error handling](#error-handling)
-* [Pipe error handling](#pipe-error-handling)
-* [Automatic error handling](#automatic-error-handling)
-* [Catch up with $?](#catch-up-with-)
-* [Good lessons](#good-lessons)
-* [Resources](#resources)
+* [Introduction](#introduction)
+* [General](#general)
+  * [Windows](#windows)
+  * [Entering insert mode](#entering-insert-mode)
+  * [Recording](#recording)
+  * [Spell checking](#spell-checking)
+* [Navigation](#navigation)
+* [Search jump](#search-jump)
+* [vimgrep and quickfix list](#vimgrep-and-quickfix-list)
+* [Marks](#marks)
+* [Editing](#editing)
+* [Misc](#misc)
+* [Key sequences](#key-sequences)
+* [Configuration](#configuration)
+* [Formating](#formating)
+* [Links](#links)
 
 
 # Introduction #
@@ -157,7 +161,7 @@ B        jump backward by words (no punctuation)
 #gg      goto line #
 ```
 
-# Search, jump #
+# Search jump #
 consider consulting `:help [` and `:help g`
 
 ```
