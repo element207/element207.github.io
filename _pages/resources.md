@@ -18,5 +18,4 @@ In this list I try to include some of my favorite resources. This list is occasi
 * [The power of Git subtree](https://developer.atlassian.com/blog/2015/05/the-power-of-git-subtree/) git command subtree is one of several ways Git projects can manage project dependencies.
 * [Git subtree](https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree) the alternative to Git submodule.
 * [Git submodules](https://www.atlassian.com/blog/git/git-submodules-workflows-tips?_ga=2.56466158.411026610.1509354932-1003279797.1490941535) core concept, workflows, and tips for git submodules.
-* [MySQL and Postgres command equivalents (mysql vs psql)](https://www.endpoint.com/blog/2009/12/24/mysql-and-postgres-command-equivalents) Users toggling between MySQL and Postgres are often confused by the equivalent commands to accomplish basic tasks. Here’s a chart listing some of the differences between the command line client for MySQL (simply called mysql), and the command line client for Postgres (called psql).
-
+* [MySQL and Postgres command equivalents (mysql vs psql)](https://www.endpoint.com/blog/2009/12/24/mysql-and-postgres-command-equivalents)
