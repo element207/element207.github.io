@@ -111,7 +111,17 @@ First, launch the pgAdmin application.
 
 ![launch pgAdmin](http://www.postgresqltutorial.com/wp-content/uploads/2012/08/Launch-pgAdmin.png)
 
-Second, double-click the PostgreSQL 9.2 under the Servers item. pgAdmin will ask you for
+Second, add a new connection to database.
+click `Add Server...` input following information, then click `OK` button:
+```
+Name:           myconnection(for example:PostgreSQL 9.2)
+Host:           172.18.0.150
+port:           5432(by default)
+Maintenance DB: postgres
+Username:       postgres
+```
+
+Third, double-click the PostgreSQL 9.2 under the Servers item. pgAdmin will ask you for
  the password. You have to provide the password for the `postgres` user. Once finish, click
  `OK` button to log in to the PostgreSQL server.
 
