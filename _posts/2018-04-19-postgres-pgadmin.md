@@ -111,7 +111,7 @@ The following illustrates how to connect to a database using pgAdmin GUI applica
 
 ![launch pgAdmin](http://www.postgresqltutorial.com/wp-content/uploads/2012/08/Launch-pgAdmin.png)
 
-**Second, add a new connection to database.**
+**Second, add a new connection to database.**  
 click `Add Server...` input following information, then click `OK` button:
 ```
 Name:           myconnection(for example:PostgreSQL 9.2)
@@ -121,8 +121,9 @@ Maintenance DB: postgres
 Username:       postgres
 ```
 
-**Third, double-click the PostgreSQL 9.2 under the Servers item. pgAdmin will ask you for**
- the password. You have to provide the password for the `postgres` user. Once finish, click
- `OK` button to log in to the PostgreSQL server.
+**Third, double-click the PostgreSQL 9.2 under the Servers item.**  
+pgAdmin will ask you for the password. You have to provide the password
+ for the `postgres` user. Once finish, click `OK` button to log in to the
+ PostgreSQL server.
 
 ![connect to db](http://www.postgresqltutorial.com/wp-content/uploads/2012/08/pgAdmin-Enter-Password.png)
