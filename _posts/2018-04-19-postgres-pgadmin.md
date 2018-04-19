@@ -99,3 +99,20 @@ $ psql -h 172.18.0.150 -p 5434 -U myuser mydb
 
 # Settings on pgAdmin 3
 
+**Connect to PostgreSQL database using pgAdmin GUI application**
+
+The second way to connect to a database is using pgAdmin GUI application. By using pgAdmin
+ GUI application, you can interact with PostgreSQL database server via an intuitive user
+  interface.
+
+The following illustrates how to connect to a database using pgAdmin GUI application:
+
+First, launch the pgAdmin application.
+
+![launch pgAdmin](http://www.postgresqltutorial.com/wp-content/uploads/2012/08/Launch-pgAdmin.png)
+
+Second, double-click the PostgreSQL 9.2 under the Servers item. pgAdmin will ask you for
+ the password. You have to provide the password for the `postgres` user. Once finish, click
+ `OK` button to log in to the PostgreSQL server.
+
+![connect to db](http://www.postgresqltutorial.com/wp-content/uploads/2012/08/pgAdmin-Enter-Password.png)
