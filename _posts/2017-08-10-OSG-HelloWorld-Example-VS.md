@@ -36,7 +36,7 @@ It should look like following steps:
 4. Compile and run application. 
 
 # Create Project
-> Create an empty win32 console appliction project.
+> Create an **empty win32 console appliction** project.
 
 ### Create new project
 
