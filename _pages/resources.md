@@ -21,4 +21,4 @@ In this list I try to include some of my favorite resources. This list is occasi
 * [MySQL and Postgres command equivalents (mysql vs psql)](https://www.endpoint.com/blog/2009/12/24/mysql-and-postgres-command-equivalents)
 * [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [PostgreSQL Cheat Sheet](http://www.postgresqltutorial.com/postgresql-cheat-sheet/)
-
+* [Use ImageMagick process images](http://www.brianlinkletter.com/process-images-for-your-blog-with-imagemagick/)
