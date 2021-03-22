@@ -15,7 +15,7 @@ url                      : "https://element207.github.io"
 baseurl                  : #"/minimal-mistakes"
 repository               : "element207/element207.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-favicon                  : "assets/images/favicons/favicon.ico"
+favicon                  : 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
 comments:
@@ -56,7 +56,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "OUI_Wayne"
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -79,33 +79,33 @@ analytics:
 # Site Author
 author:
   name             : "Wayne's Site"
-  avatar           : "/assets/images/w-author.jpg"
+  avatar           :
   bio              : "I love GitHub"
   location         : "Beijing, CN"
-  email            : "oui-element@hotmail.com"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "element207"
+  facebook         :
   foursquare       :
-  github           : "element207"
+  github           :
   google_plus      : 
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "wayne-wang-01b134b1"
+  linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : "5072311/wayne-wang" # "123456/username"
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "OUI_Wayne"
+  twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          :
 
 
 # Reading Files
